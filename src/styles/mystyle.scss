@@ -1,0 +1,183 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+  
+main{
+    background: #000;
+}
+
+.error{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .errorgroup{
+        .images{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        span{
+            margin-top: 40px !important;
+        }
+        .buttongroup{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 50px auto;
+            .btn{
+                background-color: #DB202C;
+                padding: 10px 20px;
+                color: #fff;
+
+            }
+        }
+    }
+}
+
+.splash{
+    height: 100vh !important;
+    overflow: hidden !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: fit-content;
+    .header{
+        width: 100%;
+        animation: splash 1s linear;
+        white-space: nowrap !important;
+        margin: 0 !important;
+        overflow: hidden !important;
+        display: inline-block !important;
+        img{
+            width: 207px;
+            height: 55.616px;
+        }
+
+        @keyframes splash {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 100%;
+            }
+        }
+    }
+    .btngroup{
+        position: absolute;
+        bottom: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        .btn{
+            background: #DB202C;
+            padding: 10px 20px;
+            &:hover{
+                background: #a71821;
+            }
+        }
+    }
+}
+
+
+// page home
+#home{
+    height: 100vh;
+    .header{
+        position: absolute;
+        top: 13px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        .edit{
+            position: absolute;
+            top: 50%;
+            right: 5%;
+            transform: translateY(-50%);
+        }
+    }
+    .body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .profile{
+            .card{
+                .card-body{
+                    .card-text{
+                        span{
+                            color: #FFF;
+                            text-align: center;
+                            font-feature-settings: 'clig' off, 'liga' off;
+                            font-family: "SF Pro Display";
+                            font-size: 13.25px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 27px;
+                            letter-spacing: 0.676px;
+                        }
+                    }
+                }
+            }
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}

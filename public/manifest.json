@@ -1,0 +1,30 @@
+{
+    "name": "Netflix Kawe",
+    "short_name": "Netflix",
+    "description": "Ini aplikasi netflix kw sebagai portofolio pribadi saya",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "/logo/mini.webp",
+        "sizes": "144x144",
+        "type": "image/webp",
+        "purpose": "any"
+    },
+    {
+        "src": "/logo/logos_netflix.webp",
+        "sizes": "512x512",
+        "type": "image/webp",
+        "purpose": "maskable"
+    },
+    {
+        "src": "/logo/png_logo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }
+
+    ]
+}
+  
